@@ -1,0 +1,116 @@
+{
+  "uid" : "3df32d39581d2cc6",
+  "name" : "test_login[登录--输入错误的验证码-params5-validate5]",
+  "fullName" : "test_login.TestLogin#test_login",
+  "historyId" : "982385ab3c916c30db5ff4d004e594d1",
+  "time" : {
+    "start" : 1589967324143,
+    "stop" : 1589967324230,
+    "duration" : 87
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DC25360>('code')\n +    where <built-in method get of dict object at 0x000001CD8DC25360> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+  "statusTrace" : "self = <testcases.test_login.TestLogin object at 0x000001CD8DB678D0>, desc = '登录--输入错误的验证码', params = {'authCode': 123456, 'phone': 18802681032}, validate = [{'eq': ['code', 0]}]\n\n    @pytest.mark.parametrize('desc,params,validate',getData.checks)\n    def test_login(self,desc,params,validate):\n        false = False\n        true = True\n        r = _requests._post(self, url=TestLogin.APP_URL, arg=params, headers=TestLogin.HEADER)\n        response_text = eval(r.text)\n        # 比较对象:\n        print(validate)\n        for i in validate:\n            assert_param = (i.get('eq'))[0]\n            assert_value = (i.get('eq'))[1]\n>           assert (response_text.get(assert_param) == assert_value)\nE           AssertionError: assert 9002 == 0\nE            +  where 9002 = <built-in method get of dict object at 0x000001CD8DC25360>('code')\nE            +    where <built-in method get of dict object at 0x000001CD8DC25360> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get\n\ntest_login.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1589967323211,
+      "stop" : 1589967323212,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DC25360>('code')\n +    where <built-in method get of dict object at 0x000001CD8DC25360> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+    "statusTrace" : "self = <testcases.test_login.TestLogin object at 0x000001CD8DB678D0>, desc = '登录--输入错误的验证码', params = {'authCode': 123456, 'phone': 18802681032}, validate = [{'eq': ['code', 0]}]\n\n    @pytest.mark.parametrize('desc,params,validate',getData.checks)\n    def test_login(self,desc,params,validate):\n        false = False\n        true = True\n        r = _requests._post(self, url=TestLogin.APP_URL, arg=params, headers=TestLogin.HEADER)\n        response_text = eval(r.text)\n        # 比较对象:\n        print(validate)\n        for i in validate:\n            assert_param = (i.get('eq'))[0]\n            assert_value = (i.get('eq'))[1]\n>           assert (response_text.get(assert_param) == assert_value)\nE           AssertionError: assert 9002 == 0\nE            +  where 9002 = <built-in method get of dict object at 0x000001CD8DC25360>('code')\nE            +    where <built-in method get of dict object at 0x000001CD8DC25360> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get\n\ntest_login.py:35: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9f8774c968d7f68",
+      "name" : "stdout",
+      "source" : "f9f8774c968d7f68.txt",
+      "type" : "text/plain",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1589967324443,
+      "stop" : 1589967324443,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "sw00169"
+  }, {
+    "name" : "thread",
+    "value" : "24752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "desc",
+    "value" : "'登录--输入错误的验证码'"
+  }, {
+    "name" : "params",
+    "value" : "{'phone': 18802681032, 'authCode': 123456}"
+  }, {
+    "name" : "validate",
+    "value" : "[{'eq': ['code', 0]}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3df32d39581d2cc6.json",
+  "parameterValues" : [ "'登录--输入错误的验证码'", "{'phone': 18802681032, 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+}

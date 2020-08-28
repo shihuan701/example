@@ -1,0 +1,108 @@
+{
+  "uid" : "b42973ba8a3e9cf7",
+  "name" : "test_login[登录--验证码长度校验(输入长度为10)-params7-validate7]",
+  "fullName" : "test_login.TestLogin#test_login",
+  "historyId" : "579b553604a25804401da989e4747af7",
+  "time" : {
+    "start" : 1589967324350,
+    "stop" : 1589967324438,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1589967323211,
+      "stop" : 1589967323212,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "48f96bb19aa33074",
+      "name" : "stdout",
+      "source" : "48f96bb19aa33074.txt",
+      "type" : "text/plain",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1589967324443,
+      "stop" : 1589967324443,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "sw00169"
+  }, {
+    "name" : "thread",
+    "value" : "24752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "desc",
+    "value" : "'登录--验证码长度校验(输入长度为10)'"
+  }, {
+    "name" : "params",
+    "value" : "{'phone': 15986827962, 'authCode': 1234567891}"
+  }, {
+    "name" : "validate",
+    "value" : "[{'eq': ['code', 0]}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b42973ba8a3e9cf7.json",
+  "parameterValues" : [ "'登录--验证码长度校验(输入长度为10)'", "{'phone': 15986827962, 'authCode': 1234567891}", "[{'eq': ['code', 0]}]" ]
+}

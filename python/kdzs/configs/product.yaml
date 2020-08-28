@@ -1,0 +1,5 @@
+- web:
+    name: 开店助手商品列表
+    request :
+      url: /api/product/list?pageNum=1&pageSize=10
+      method: GET

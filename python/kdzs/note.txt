@@ -1,0 +1,70 @@
+pytest
+-- 学习 https://docs.pytest.org/en/latest/contents.html
+1.安装pytest  pip install pytest
+2.pytest 会从当前文件夹下运行test_*.py or *_test.py
+3.运行多个测试
+  -- pytest命令会依次运行当前目录下所有test_*.py or *_test.py 文件
+  -- pytest -q test_*.py 会运行指定文件 (q quite)
+4.多个test组在同一个class内
+5.为功能测试请求唯一临时目录
+6.用例顺序
+  setup_module
+  setup_class
+  setup_method
+  teardown_method
+  teardown_class
+  teardown_module
+7.使用pytest-order控制用例之间的顺序控制(需要安装pytest-ordering插件)
+  @pytest.mark.run(order = 2)
+8.参数化
+9.数据驱动
+10.生成junit兼容的xml报告
+   (pytest --junitxml myjunit.xml test_C.py)
+11.生成HTML报告
+   安装pytest-html 插件
+   pytest --html=report.html test_C.py
+
+allure2测试报告
+1.安装 allure
+(下载http://allure.qatools.ru/，配置环境变量)
+2.allure 命令行及工具https://docs.qameta.io/allure/#_installing_a_commandline
+3.报告生成步骤
+  a.先生成xml报告
+    pytest --junitxml unit/demo.xml test_C.py
+  b.使用serve给定报告路径
+    allure serve unit/
+  c.将报告生成静态的html文件
+    allure generate unit/ -o unit/allure
+4.allure的pytest适配器
+  a.安装allure-pytest
+    pip install allure-pytest
+  b.指定allure结果文件目录
+    pytest --alluredir=unit/my_allure_results
+  c.生成报告
+    allure serve unit/my_allure_results
+  d.将报告生成静态的html文件
+    allure generate unit/my_allure_results -o unit/my_allure_html
+    allure generate --clean ./report/xml/ -o ./results/html/
+5.allure 适配器
+  a.标题
+  b.用例描述
+  c.链接
+  d.issue追踪
+  e.子步骤定义
+  f.附件支持:文本、html、图片、视频
+  g.BDD
+  Feature: 标注主要功能模块
+  Story: 标注Features功能模块下的分支功能
+  Severity: 标注测试用例的重要级别
+  Step: 标注测试用例的重要步骤
+  Issue和TestCase: 标注Issue、Case，可加入URL
+
+6.发送邮件
+
+
+其他：
+1.with语法:事先做一些设置，事后做一些清理
+  with后面返回的对象要求必须两__enter__()/__exit__()这两个方法
+
+
+

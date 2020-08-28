@@ -1,0 +1,108 @@
+{
+  "uid" : "5aeac29cb58e40a3",
+  "name" : "test_login[登录--手机号为空-params1-validate1]",
+  "fullName" : "test_login.TestLogin#test_login",
+  "historyId" : "d02aadc0bdf2fc3a322d983916cbf688",
+  "time" : {
+    "start" : 1589967323317,
+    "stop" : 1589967323408,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1589967323211,
+      "stop" : 1589967323212,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f381ab87f90b3350",
+      "name" : "stdout",
+      "source" : "f381ab87f90b3350.txt",
+      "type" : "text/plain",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1589967324443,
+      "stop" : 1589967324443,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "sw00169"
+  }, {
+    "name" : "thread",
+    "value" : "24752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "desc",
+    "value" : "'登录--手机号为空'"
+  }, {
+    "name" : "params",
+    "value" : "{'phone': '', 'authCode': 123456}"
+  }, {
+    "name" : "validate",
+    "value" : "[{'eq': ['code', 0]}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5aeac29cb58e40a3.json",
+  "parameterValues" : [ "'登录--手机号为空'", "{'phone': '', 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+}

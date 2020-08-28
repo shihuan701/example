@@ -1,0 +1,158 @@
+{
+  "579b553604a25804401da989e4747af7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b42973ba8a3e9cf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589967324350,
+        "stop" : 1589967324438,
+        "duration" : 88
+      }
+    } ]
+  },
+  "a26ffca59ae3ef435a78eb21967194c7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34ca50043a802156",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DB95090>('code')\n +    where <built-in method get of dict object at 0x000001CD8DB95090> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+      "time" : {
+        "start" : 1589967323417,
+        "stop" : 1589967323778,
+        "duration" : 361
+      }
+    } ]
+  },
+  "982385ab3c916c30db5ff4d004e594d1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3df32d39581d2cc6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DC25360>('code')\n +    where <built-in method get of dict object at 0x000001CD8DC25360> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+      "time" : {
+        "start" : 1589967324143,
+        "stop" : 1589967324230,
+        "duration" : 87
+      }
+    } ]
+  },
+  "d02aadc0bdf2fc3a322d983916cbf688" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5aeac29cb58e40a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589967323317,
+        "stop" : 1589967323408,
+        "duration" : 91
+      }
+    } ]
+  },
+  "c23d70a80a328d4a5d0a4fdc00ebd2ae" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b504b3d356060e7f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DC08DC8>('code')\n +    where <built-in method get of dict object at 0x000001CD8DC08DC8> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+      "time" : {
+        "start" : 1589967323941,
+        "stop" : 1589967324028,
+        "duration" : 87
+      }
+    } ]
+  },
+  "cfa6bae06788e7c4317bde74896e44c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4083c602521b4e15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589967323212,
+        "stop" : 1589967323307,
+        "duration" : 95
+      }
+    } ]
+  },
+  "ff43ab92c747639c07f81e84c56e9500" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef7e8ab67dddebfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589967324245,
+        "stop" : 1589967324338,
+        "duration" : 93
+      }
+    } ]
+  },
+  "6fbd176fa6ea656a094425afb5485be0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc3c41871eedb00e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DC05750>('code')\n +    where <built-in method get of dict object at 0x000001CD8DC05750> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+      "time" : {
+        "start" : 1589967324043,
+        "stop" : 1589967324118,
+        "duration" : 75
+      }
+    } ]
+  }
+}

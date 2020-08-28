@@ -1,0 +1,117 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "sw00169",
+    "children" : [ {
+      "name" : "24752-MainThread",
+      "children" : [ {
+        "name" : "test_login[登录--输入错误的验证码-params5-validate5]",
+        "uid" : "3df32d39581d2cc6",
+        "parentUid" : "d428f9fcc3931932ec1d3a405c89ec15",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589967324143,
+          "stop" : 1589967324230,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--输入错误的验证码'", "{'phone': 18802681032, 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      }, {
+        "name" : "test_login[登录通过-params0-validate0]",
+        "uid" : "4083c602521b4e15",
+        "parentUid" : "d428f9fcc3931932ec1d3a405c89ec15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589967323212,
+          "stop" : 1589967323307,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录通过'", "{'phone': 15986827962, 'code': 123456}", "[{'eq': ['code', 0]}]" ]
+      }, {
+        "name" : "test_login[登录--验证码格式校验(输入字符)-params6-validate6]",
+        "uid" : "ef7e8ab67dddebfb",
+        "parentUid" : "d428f9fcc3931932ec1d3a405c89ec15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589967324245,
+          "stop" : 1589967324338,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--验证码格式校验(输入字符)'", "{'phone': 15986827962, 'authCode': 'abc123'}", "[{'eq': ['code', 0]}]" ]
+      }, {
+        "name" : "test_login[登录--手机号格式校验(输入86925840236)-params3-validate3]",
+        "uid" : "b504b3d356060e7f",
+        "parentUid" : "d428f9fcc3931932ec1d3a405c89ec15",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589967323941,
+          "stop" : 1589967324028,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--手机号格式校验(输入86925840236)'", "{'phone': 86925840236, 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      }, {
+        "name" : "test_login[登录--手机号为空-params1-validate1]",
+        "uid" : "5aeac29cb58e40a3",
+        "parentUid" : "d428f9fcc3931932ec1d3a405c89ec15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589967323317,
+          "stop" : 1589967323408,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--手机号为空'", "{'phone': '', 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      }, {
+        "name" : "test_login[登录--验证码长度校验(输入长度为10)-params7-validate7]",
+        "uid" : "b42973ba8a3e9cf7",
+        "parentUid" : "d428f9fcc3931932ec1d3a405c89ec15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589967324350,
+          "stop" : 1589967324438,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--验证码长度校验(输入长度为10)'", "{'phone': 15986827962, 'authCode': 1234567891}", "[{'eq': ['code', 0]}]" ]
+      }, {
+        "name" : "test_login[登录--手机号长度校验(输入长度为6)-params4-validate4]",
+        "uid" : "bc3c41871eedb00e",
+        "parentUid" : "d428f9fcc3931932ec1d3a405c89ec15",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589967324043,
+          "stop" : 1589967324118,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--手机号长度校验(输入长度为6)'", "{'phone': 126845, 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      }, {
+        "name" : "test_login[登录--手机号格式校验(输入字符)-params2-validate2]",
+        "uid" : "34ca50043a802156",
+        "parentUid" : "d428f9fcc3931932ec1d3a405c89ec15",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589967323417,
+          "stop" : 1589967323778,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--手机号格式校验(输入字符)'", "{'phone': 'sscm1593672', 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      } ],
+      "uid" : "d428f9fcc3931932ec1d3a405c89ec15"
+    } ],
+    "uid" : "c3fe3630de3ca2ba8e55fa21c39b24c3"
+  } ]
+}

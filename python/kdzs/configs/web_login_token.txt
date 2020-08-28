@@ -1,0 +1,1 @@
+{"Content-type": "application/json;charset=UTF-8", "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxODgwMjY4MTAzMiIsImNyZWF0ZWQiOjE1ODY3NDMzMTg1MDAsImV4cCI6MTU4NzM0ODExOH0.9eAJMZO3ABI-AQAjfc2JRhe2WqvADwab2lpT7pkMnXrthYiGBqj20mvu6qgyc93GwjJRRA6NWbNqnrabmQIhlA"}

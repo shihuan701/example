@@ -1,0 +1,69 @@
+- config :
+    name :  上上参谋登录用例
+    interface : /app/v1/user/login
+    method: POST
+
+- app:
+    desc: 登录通过
+    params:
+        phone: 15986827962
+        code: 123456
+    validate :
+        - eq : [code , 0]
+
+
+- app:
+    desc: 登录--手机号为空
+    params:
+        phone: ''
+        authCode: 123456
+    validate :
+        - eq : [code , 0]
+
+- app:
+    desc: 登录--手机号格式校验(输入字符)
+    params:
+        phone: sscm1593672
+        authCode: 123456
+    validate :
+        - eq : [code , 0]
+- app:
+    desc: 登录--手机号格式校验(输入86925840236)
+    params:
+        phone: 86925840236
+        authCode: 123456
+    validate :
+        - eq : [code , 0]
+
+- app:
+    desc: 登录--手机号长度校验(输入长度为6)
+    params:
+        phone: 126845
+        authCode: 123456
+    validate :
+        - eq : [code , 0]
+
+- app:
+    desc: 登录--输入错误的验证码
+    params:
+        phone: 18802681032
+        authCode: 123456
+    validate :
+        - eq : [code , 0]
+
+- app:
+    desc: 登录--验证码格式校验(输入字符)
+    params:
+        phone: 15986827962
+        authCode: abc123
+    validate :
+        - eq : [code , 0]
+
+- app:
+    desc: 登录--验证码长度校验(输入长度为10)
+    params:
+        phone: 15986827962
+        authCode: 1234567891
+    validate :
+        - eq : [code , 0]
+

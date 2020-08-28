@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DB95090>('code')\n +    where <built-in method get of dict object at 0x000001CD8DB95090> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+      "children" : [ {
+        "name" : "test_login[登录--手机号格式校验(输入字符)-params2-validate2]",
+        "uid" : "34ca50043a802156",
+        "parentUid" : "f11a85fb1d0cc8a7426a744425a3e024",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589967323417,
+          "stop" : 1589967323778,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--手机号格式校验(输入字符)'", "{'phone': 'sscm1593672', 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      } ],
+      "uid" : "f11a85fb1d0cc8a7426a744425a3e024"
+    }, {
+      "name" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DC08DC8>('code')\n +    where <built-in method get of dict object at 0x000001CD8DC08DC8> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+      "children" : [ {
+        "name" : "test_login[登录--手机号格式校验(输入86925840236)-params3-validate3]",
+        "uid" : "b504b3d356060e7f",
+        "parentUid" : "0165a7a3880c644ebf322211de6563f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589967323941,
+          "stop" : 1589967324028,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--手机号格式校验(输入86925840236)'", "{'phone': 86925840236, 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      } ],
+      "uid" : "0165a7a3880c644ebf322211de6563f3"
+    }, {
+      "name" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DC05750>('code')\n +    where <built-in method get of dict object at 0x000001CD8DC05750> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+      "children" : [ {
+        "name" : "test_login[登录--手机号长度校验(输入长度为6)-params4-validate4]",
+        "uid" : "bc3c41871eedb00e",
+        "parentUid" : "db9fed1ee0896de6cb35d2abd10e952e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589967324043,
+          "stop" : 1589967324118,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--手机号长度校验(输入长度为6)'", "{'phone': 126845, 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      } ],
+      "uid" : "db9fed1ee0896de6cb35d2abd10e952e"
+    }, {
+      "name" : "AssertionError: assert 9002 == 0\n +  where 9002 = <built-in method get of dict object at 0x000001CD8DC25360>('code')\n +    where <built-in method get of dict object at 0x000001CD8DC25360> = {'code': 9002, 'data': '', 'msg': '验证码错误或已过期', 'ok': False}.get",
+      "children" : [ {
+        "name" : "test_login[登录--输入错误的验证码-params5-validate5]",
+        "uid" : "3df32d39581d2cc6",
+        "parentUid" : "6d55541d0636a31f39e2c1aa9a3ba627",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589967324143,
+          "stop" : 1589967324230,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录--输入错误的验证码'", "{'phone': 18802681032, 'authCode': 123456}", "[{'eq': ['code', 0]}]" ]
+      } ],
+      "uid" : "6d55541d0636a31f39e2c1aa9a3ba627"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

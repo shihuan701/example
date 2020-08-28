@@ -1,0 +1,81 @@
+[ {
+  "uid" : "5aeac29cb58e40a3",
+  "name" : "test_login[登录--手机号为空-params1-validate1]",
+  "time" : {
+    "start" : 1589967323317,
+    "stop" : 1589967323408,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc3c41871eedb00e",
+  "name" : "test_login[登录--手机号长度校验(输入长度为6)-params4-validate4]",
+  "time" : {
+    "start" : 1589967324043,
+    "stop" : 1589967324118,
+    "duration" : 75
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "34ca50043a802156",
+  "name" : "test_login[登录--手机号格式校验(输入字符)-params2-validate2]",
+  "time" : {
+    "start" : 1589967323417,
+    "stop" : 1589967323778,
+    "duration" : 361
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4083c602521b4e15",
+  "name" : "test_login[登录通过-params0-validate0]",
+  "time" : {
+    "start" : 1589967323212,
+    "stop" : 1589967323307,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3df32d39581d2cc6",
+  "name" : "test_login[登录--输入错误的验证码-params5-validate5]",
+  "time" : {
+    "start" : 1589967324143,
+    "stop" : 1589967324230,
+    "duration" : 87
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b42973ba8a3e9cf7",
+  "name" : "test_login[登录--验证码长度校验(输入长度为10)-params7-validate7]",
+  "time" : {
+    "start" : 1589967324350,
+    "stop" : 1589967324438,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef7e8ab67dddebfb",
+  "name" : "test_login[登录--验证码格式校验(输入字符)-params6-validate6]",
+  "time" : {
+    "start" : 1589967324245,
+    "stop" : 1589967324338,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b504b3d356060e7f",
+  "name" : "test_login[登录--手机号格式校验(输入86925840236)-params3-validate3]",
+  "time" : {
+    "start" : 1589967323941,
+    "stop" : 1589967324028,
+    "duration" : 87
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
